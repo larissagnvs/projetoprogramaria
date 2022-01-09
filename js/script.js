@@ -1,12 +1,12 @@
-document.getElementById("botaoEnviar").addEventListener("click", validaFormulario )
+document.getElementById("sendBoton").addEventListener("click",validaFormulario )
 
 function validaFormulario(){
-  if(document.getElementById("nome").value != "" &&
+  if(document.getElementById("name").value != "" &&
     document.getElementById("email").value != "" &&
-    document.getElementById("telefone").value != "") {
-      alert("Prontinho! Você receberá as novidades por e-mail!")
+    document.getElementById("telefone").value != ""){
+      alert("Prontinho!")
   }else{
-      alert("Por favor, preecha os campos de nome, e-mail e telefone")
+      alert("Preencha seus dados!")
   }
+
 }
-  
